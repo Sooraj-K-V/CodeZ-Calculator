@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    columns: hsl(0, 0%, 15%);
+    background-image: url("moon-river-mountains-gradient-background-blue-night-cold-4480x2520-2527.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+h1{
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border: none;
+    font-family: 'Protest Revolution', sans-serif;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: rgba(3, 3, 3, 0.3);    
+    border-radius: 50px; 
+}
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(5, 224, 240, 0.502);
+    border-radius: 15px;
+    opacity: 0.77;
+    backdrop-filter: blur(10px);
+    max-width: 278px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border: dotted;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 35px;
+    background-color: rgba(3, 3, 3, 0.5);
+    text-align: LEFT;
+    border-style: none;
+    color: white;
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: rgba(3, 3, 3, 0.5);
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+button:hover{
+    border-style: solid;
+    border-color: white;
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+.operator-button{
+    background-color: rgb(2, 204, 194);
+    color: black;
+
+}
+.operator-button:hover{
+    background-color: rgb(164, 253, 249);
+}
+.operator-button:active{
+    background-color: rgb(0, 207, 197);
+}
